@@ -1,0 +1,19 @@
+{
+  "name": "google_sheets",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@types/fs-extra": "^11.0.4",
+    "@types/jsonwebtoken": "^9.0.10",
+    "fs-extra": "^11.3.1",
+    "googleapis": "^157.0.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
